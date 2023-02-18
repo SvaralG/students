@@ -1,0 +1,19 @@
+{
+  "name": "students",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvaralG/students.git"
+  },
+  "author": "Gulnara Svaral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvaralG/students/issues"
+  },
+  "homepage": "https://github.com/SvaralG/students#readme"
+}
