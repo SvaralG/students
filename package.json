@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/SvaralG/students/issues"
   },
-  "homepage": "https://github.com/SvaralG/students#readme"
+  "homepage": "https://github.com/SvaralG/students#readme",
+  "dependencies": {
+    "@types/jest": "^29.4.0",
+    "jest": "^29.4.3"
+  },
+  "devDependencies": {
+    "babel-plugin-istanbul": "^6.1.1"
+  }
 }
