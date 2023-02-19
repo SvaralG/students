@@ -1,4 +1,4 @@
- const groups = [
+const groups = [
     [
       { "name": "Ivan", "score": 35, "date": "2022-10-11" },
       { "name": "Maria", "score": 5, "date": "2022-10-10" },
@@ -47,28 +47,3 @@
       }
     }
     oneBestStudent(groups);
-
-
-    // function oneBestStudent(students) {
-    //     for (let oneStudent of students) {
-    //       let bestStudent;
-    //       let bestScore = 0;
-    //       let bestDate = new Date(0);
-    //       students.forEach((oneStudent) => {
-    //         if (oneStudent.score > bestScore) {
-    //           bestScore = oneStudent.score;
-    //           bestDate = new Date(oneStudent.date);
-    //           bestStudent = oneStudent.name;
-    //         } else if (oneStudent.score === bestScore) {
-    //           if (new Date(oneStudent.date) < bestDate) {
-    //             bestDate = new Date(oneStudent.date);
-    //             bestStudent = oneStudent.name;
-    //           }
-    //         }
-    //       });
-    //       console.log(bestStudent);
-    //       return bestStudent;
-    //     }
-    // }
-      
-    //   oneBestStudent(students);
