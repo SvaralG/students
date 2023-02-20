@@ -30,20 +30,25 @@ const groups = [
         let bestStudent;
         let bestScore = 0;
         let bestDate = new Date(0);
-        group.forEach((student) => {
-          if (student.score > bestScore) {
-            bestScore = student.score;
-            bestDate = new Date(student.date);
-            bestStudent = student.name;
-          } else if (student.score === bestScore) {
-            if (new Date(student.date) < bestDate) {
-              bestDate = new Date(student.date);
-              bestStudent = student.name;
-            }
+        groups.forEach((student) => {
+
+      if (student.score > bestScore) {
+          bestScore = student.score;
+          bestDate = new Date(student.date);
+          bestStudent = student.name;
+
+      } else if (student.score === bestScore) {
+        
+      if (new Date(student.date) < bestDate) {
+          bestDate = new Date(student.date);
+          bestStudent = student.name;
+          }
           }
         });
-        console.log(bestStudent);
+        //console.log(bestStudent);
         return bestStudent;
       }
     }
     oneBestStudent(groups);
+
+    module.exports = oneBestStudent;
