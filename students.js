@@ -45,10 +45,10 @@ const groups = [
           }
           }
         });
-        console.log(bestStudent);
+        //console.log(bestStudent);
           return bestStudent;
       }
     }
     oneBestStudent(groups);
 
-    // module.exports = oneBestStudent;
+     module.exports = oneBestStudent;
